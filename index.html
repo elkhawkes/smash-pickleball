@@ -207,6 +207,7 @@
     .reveal{ transition:none; opacity:1; transform:none; }
     .fmt,.fmt:hover{ transition:none; }
   }
+  a.guide-card{display:block;text-decoration:none;color:inherit}
 </style>
 </head>
 <body>
@@ -235,7 +236,7 @@
       <svg><use href="#logo"/></svg>
       <b>Smash!</b><span>Pickleball Manager</span>
     </div>
-    <a class="nav-link" href="#features">Features</a>
+    <span style="display:flex;gap:22px"><a class="nav-link" href="#features">Features</a><a class="nav-link" href="guides/">Guides</a></span>
   </div>
 </header>
 
@@ -368,6 +369,22 @@
   </div>
 </section>
 
+<section id="guides">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow">Free guides</div>
+      <h2 class="display">Running a pickleball round robin?</h2>
+      <p>Formats, scoring and printable schedules for 5 and 8 players. Free to read, no app needed.</p>
+    </div>
+    <div class="formats">
+      <a class="fmt guide-card reveal" href="guides/pickleball-round-robin-formats-and-scoring/"><div class="tag">Guide</div><h3>Round robin formats and scoring</h3><p>Rotating partners, fixed teams or singles, and how to score and rank them.</p></a>
+      <a class="fmt guide-card reveal" href="guides/pickleball-round-robin-schedule-8-players/"><div class="tag">Guide</div><h3>8-player round robin schedule</h3><p>A printable 7-round table of rotating partners on two courts.</p></a>
+      <a class="fmt guide-card reveal" href="guides/pickleball-round-robin-5-players/"><div class="tag">Guide</div><h3>Round robin for 5 players</h3><p>Five players, one court, five rounds, and everyone rests exactly once.</p></a>
+    </div>
+    <p class="reveal" style="margin-top:22px"><a href="guides/" style="font-weight:700">All guides &rarr;</a></p>
+  </div>
+</section>
+
 <section>
   <div class="wrap">
     <div class="final reveal">
@@ -385,6 +402,7 @@
   <div class="wrap">
     <div class="foot-brand"><svg><use href="#logo"/></svg><div>Smash! Pickleball Manager<div class="meta" style="font-weight:600">by Hawkes Health Solutions AS</div></div></div>
     <div class="meta">
+      <a href="guides/">Guides</a> &nbsp;&middot;&nbsp;
       <a href="https://elkhawkes.github.io/smash-pickleball-privacy/">Privacy policy</a> &nbsp;·&nbsp;
       <a href="mailto:smash@prekonsult.com">smash@prekonsult.com</a> &nbsp;·&nbsp;
       © 2026 Hawkes Health Solutions AS
